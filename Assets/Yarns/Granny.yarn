@@ -1,0 +1,29 @@
+title: Granny.Start
+tags: 
+colorID: 0
+position: 551,24
+---
+<<if visited("Granny.Start")>> 
+Hello again dear !
+<<else>>
+Hello dear !
+I know dancing is good for you, but it takes a bit of energy !
+Do you like to dance ?
+[[ Yes |Granny.DanceYes]]
+[[ No |Granny.DanceNo]]
+<<endif>>
+===
+title: Granny.DanceYes
+tags: 
+colorID: 0
+position: -303,-277
+---
+Great.  Me too !
+===
+title: Granny.DanceNo
+tags: 
+colorID: 0
+position: 1412,-291
+---
+You don't know what you're missing !
+===
